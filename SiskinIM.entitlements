@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.CY-25F30248-31C5-11EA-8ECF-1B7CE1FD3D59.com.cydia.Extender</string>
+		<string>group.CY-6E975F6A-606B-11EA-A2AF-4CCC6A27032A.com.spotify.client.imessage</string>
+		<string>group.CY-6ED08CA4-606B-11EA-998A-4CCC6A27032A.com.spotify.client.notification</string>
+		<string>group.CY-C915FDF4-31C5-11EA-9709-77B8564DC53F.com.nianticlabs.pokemongo</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)org.tigase.messenger.mobile</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+framework module TigaseSwift {
+  umbrella header "TigaseSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module TigaseSwift.Swift {
+    header "TigaseSwift-Swift.h"
+    requires objc
+}
